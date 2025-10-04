@@ -16,7 +16,7 @@
 <br />
 <br />
 <br />
-<img alt="Python" src ="https://img.shields.io/badge/기술명-원하는색상코드.svg?&style=for-the-badge&logo=Springboot&logoColor=white"/>
+
 ## Skills
 #### I'm studying it during time.
 <div style="display:flex;gap:30px;flex-wrap:wrap;">
