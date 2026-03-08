@@ -1,34 +1,45 @@
-## Introduce myself
-안녕하세요 요구사항에서 본질을 찾아내는 백엔드 개발자가 되고싶은 김동건입니다.  
-항상 웃으며 즐겁게 앞에 놓인 일을 하고자 합니다.   
-그리고 저로 인해 주변사람들이 행복해졌으면 좋겠습니다.
-<br />
-<br />
-<br />
-## My values
-속도보다는 과정에 충실합니다<br />
-저만의 방식으로 정리하고 쉽게 말하려 노력합니다<br />
-<br />
-<br />
-<br />
-## How I work
-항상 주변인에게 긍정적인 에너지를 주고싶습니다. 힘들더라도 웃으면서 넘기고 싶습니다.  
-코드를 짤때는 신나는 음악들을 틀어놓고 합니다.
-그러면서 서서히 깊게 몰입하게 됩니다.
-<br />
-<br />
+## 안녕하세요, 김동건입니다 👋
+
+요구사항에서 본질을 찾아내는 백엔드 개발자가 되고 싶습니다.
+속도보다 과정에 충실하고, 내가 이해한 것을 쉽게 설명하는 걸 좋아합니다.
+코드를 짤 땐 신나는 음악을 틀어놓고 깊게 몰입합니다.
+
 <br />
 
-## Skills
-#### I'm studying it during time.
-<div style="display:flex;gap:30px;flex-wrap:wrap;">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff">
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=fff">
-  <img src="https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white">
-  <img src = "https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000">
+## 🛠 Skills
+
+<div style="display:flex;gap:10px;flex-wrap:wrap;">
+  <img src="https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white">
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white">
+  <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?logo=springsecurity&logoColor=white">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/Redis-FF4438?logo=redis&logoColor=white">
+  <img src="https://img.shields.io/badge/Kafka-231F20?logo=apachekafka&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/AWS%20S3-FF9900?logo=amazons3&logoColor=white">
 </div>
 
 <br />
+
+## 🚀 Projects
+
+### BizKit — 디지털 명함 관리 서비스
+`2025.12 ~ 2026.03` &nbsp;|&nbsp; 백엔드 단독 개발
+
+QR 공유, OCR 종이명함 등록, AI 자기소개 분석, 실시간 채팅을 제공하는 명함 관리 서비스.
+백엔드 API 서버 전체를 단독으로 설계·구현·운영했습니다.
+
+| 항목 | 내용 |
+|---|---|
+| **검색 성능 최적화** | FULLTEXT OOM + N+1(41쿼리) → LIKE 전환 + 2단계 쿼리로 **400 TPS / p95 17ms** 달성 |
+| **Race Condition 해결** | Refresh Token 동시 요청 시 중복 발급 이슈 → Redis GETDEL + Grace Period로 해결 |
+| **Kafka 비동기 처리** | AI 분석·회원 탈퇴·프로필 업데이트를 Kafka 이벤트 기반으로 전환, DLQ 재처리 구조 구축 |
+| **실시간 채팅** | WebSocket/STOMP + Redis Pub/Sub 기반 멀티 인스턴스 브로드캐스트 |
+
+🔗 [GitHub Repository](https://github.com/goddonggeon1234/18-team-18TEAM-be)
+
 <br />
-<br />
+
+## 📬 Contact
+
+[![Gmail](https://img.shields.io/badge/ristol@naver.com-03C75A?logo=naver&logoColor=white)](mailto:ristol@naver.com)
