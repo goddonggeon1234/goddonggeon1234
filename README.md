@@ -32,8 +32,8 @@ QR 공유, OCR 종이명함 등록, AI 자기소개 분석, 실시간 채팅을 
 | 항목 | 내용 |
 |---|---|
 | **검색 성능 최적화** | FULLTEXT OOM + N+1(41쿼리) → LIKE 전환 + 2단계 쿼리로 **400 TPS / p95 17ms** 달성 |
-| **Race Condition 해결** | Refresh Token 동시 요청 시 중복 발급 이슈 → Redis GETDEL + Grace Period로 해결 |
-| **Kafka 비동기 처리** | AI 분석·회원 탈퇴·프로필 업데이트를 Kafka 이벤트 기반으로 전환, DLQ 재처리 구조 구축 |
+| **실시간 알림** | 시간이 걸리는 AI 요청 작업을 위한 SSE 기반 알림 서비스 개발 |
+| **RabbitMQ 비동기 처리** | AI 서버 연동 기능을 Kafka RabbitMQ 기반으로 전환, DLQ, DLX 구조 구축 |
 | **실시간 채팅** | WebSocket/STOMP + Redis Pub/Sub 기반 멀티 인스턴스 브로드캐스트 |
 
 🔗 [GitHub Repository](https://github.com/goddonggeon1234/18-team-18TEAM-be)
